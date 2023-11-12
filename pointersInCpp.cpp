@@ -25,7 +25,7 @@ int main(){
     cout<<"Copying a pointer: "<<endl;
     cout<< ptr << " - "<< q <<endl;
     cout<< *ptr << " - "<< *q <<endl;
-
+    cout<<"Pointers";
     
 
     return 0;
