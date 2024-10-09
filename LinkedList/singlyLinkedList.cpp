@@ -166,13 +166,13 @@ int main(){
         case 1:
             cout<<"Enter the value to be Inserted: ";
             cin>>val;
-            insertAtBegin(head,val);
+            head = insertAtBegin(head,val);
             break;
 
         case 2:
             cout<<"Enter the value to be Inserted: ";
             cin>>val;
-            insertAtEnd(head,val);
+            head = insertAtEnd(head,val);
             break;
         
         case 3:
@@ -180,24 +180,25 @@ int main(){
             cin>>pos;
             cout<<"Enter the value to be Inserted: ";
             cin>>val;
-            insertAtArbitrary(head,val,pos);
+            head = insertAtArbitrary(head,val,pos);
             break;
 
         case 4:
-            deleteAtBegin(head);
+            head = deleteAtBegin(head);
             break;
 
         case 5:
-            deleteAtEnd(head);
+            head = deleteAtEnd(head);
             break;
 
         case 6:
             cout<<"Enter the position where you want to delete the value: ";
             cin>>pos;
-            deleteAtArbitrary(head,pos);
+            head = deleteAtArbitrary(head,pos);
             break;
         
         case 7:
+            cout<<"The  Linked List is: ";
             traverseLinkedList(head);
             break;
 
