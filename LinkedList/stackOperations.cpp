@@ -10,6 +10,7 @@ class stack{
         stack(){
             top = -1;
         }
+        
         void push(int value){
             if(top >= (MAX - 1)){
                cout<<"Stack Overflow!"<<endl;
